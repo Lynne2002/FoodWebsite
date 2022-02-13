@@ -1,0 +1,123 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+body{
+	
+	padding-top: 20vh;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Raleway', cursive;
+}
+.Registration{
+	width: 350px ;
+	height: 650px;
+	padding: 30px 30px;
+	background-color: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+}
+.logo{
+	position: fixed;
+	float: left;
+	margin-top: -150px;
+}
+h2{
+	text-align: center;
+	margin: 0;
+	font-size: 22px;
+	font-family: 'Raleway', cursive;
+}
+.Registration label{
+	padding: 0;
+	font-weight: bold;
+	margin: 0;
+}
+.Registration input[type="text"], input[type="email"],input[type="password"]{
+width: 250px;
+text-align: center;
+height: 20px;
+outline: none;
+color: #fff;
+font-size: 20px;
+background: transparent;
+border: none;
+margin-bottom: 40px;
+border-bottom: 1px solid #fff;
+}
+.btn {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: white;
+    color: black;
+    padding: 23px 50px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+    
+}
+
+.btn:hover {
+    transform: scale(1.04, 1);
+    background-color: darkblue;
+    text-decoration: none;
+}
+.Registration input[type="submit"]:hover {
+    transform: scale(1.04, 1);
+    background-color: darkblue;
+    text-decoration: none;
+}
+.delete {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+}
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+.edit {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+table{
+	width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+	bottom: 0;
+    margin-top: 100px;
+    color: white;
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover {
+    background: black;
+}

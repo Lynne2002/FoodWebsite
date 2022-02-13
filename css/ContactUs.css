@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Raleway', cursive;
+
+}
+body{
+	background-size: cover;
+	height: 100vh;
+}
+.logo{
+	position: fixed;
+	float:left;
+}
+.wrapper{
+	position: absolute;
+	top: 50%;
+	transform: translate(-10%);
+	width: 100%;
+	padding: 0 20px;
+	margin-top: -50px;
+
+}
+.form{
+	max-width: 1000px;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 30px;
+	border-radius: 5px;
+	display: flex;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+	
+
+}
+.input-fields{
+	display: flex;
+	flex-direction: column;
+	margin-right: 4%;
+}
+.input-fields,
+.message{
+	width: 48%;
+}
+.input-fields .input,
+.message textarea{
+	margin: 10px 0;
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid #c5ecfd;
+	padding: 10px;
+	color:  #c5ecfd;
+	width: 100%;
+}
+.message textarea{
+	height: 212px;
+}
+.btn{
+	font-weight: bold;
+	font-family: 'Raleway', cursive;
+   font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: white;
+    color: black;
+    padding: 23px 50px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+}
+.btn:hover{
+	background: darkblue;
+	pointer: cursor;
+}
+::-webkit-input-placeholder{
+	color: #c5ecfd ;
+}
+::-moz-input-placeholder{
+	color: #c5ecfd ;
+}
+::-ms-input-placeholder{
+	color: #c5ecfd ;
+}
+@media screen and (max-width: 600px){
+	.form{
+		flex-direction: column;
+	}
+	.msg textarea{
+		height: 80px;
+	}
+	input-fields,
+	.msg{
+		width: 100%;
+	}
+}
+.success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+.profile_info{
+	right: 0;
+	margin-left: 1050px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+}
+.profile_info img {
+    display: inline-block; 
+    width: 50px; 
+    height: 50px; 
+    margin: 5px;
+    float: left;
+    
+}
+.profile_info div {
+    display: inline-block; 
+    margin: 5px;
+
+}
+.profile_info:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#user_type {
+    height: 40px;
+    width: 98%;
+    padding: 5px 10px;
+    background: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+}
+.error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+}

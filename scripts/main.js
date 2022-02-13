@@ -1,0 +1,1 @@
+document.getElementbyId("demo").innerHTML="A new paragraph";

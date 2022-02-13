@@ -1,0 +1,204 @@
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	
+	padding-top: 20vh;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Raleway', cursive;
+	text-align: center;
+}
+
+.wrapper{
+	width: 500px;
+	padding: 25px;
+	margin: 25px auto 0;
+	background: rgba(0, 0, 0, 0.8);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+	display: inline-block;
+	position: relative;
+
+	
+}
+.wrapper h2{
+	background-color:white;
+	color: black;
+	font-size: 24px;
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	border: 1px dotted #333;
+}
+h4{
+	padding-bottom: 5px;
+	color: white;
+
+}
+.input-group{
+	margin-bottom: 8px;
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 0;
+	margin-top: 20px;
+}
+.input-box{
+width: 100%;
+margin-right: 12px;
+position: relative;
+}
+.input-box:last-child{
+	margin-right: 0;
+}
+.name, .username, .email, .card{
+	padding: 14px 10px 14px 50px;
+	width: 100%;
+	background-color: white;
+	border: 1px solid black;
+	outline: none;
+	letter-spacing: 1px;
+	transition: 0.3s;
+	border-radius: 3px;
+	color: grey;
+}
+.username{
+padding: 14px 10px 14px 50px;
+	width: 100%;
+	background-color: white;
+	border: 1px solid black;
+	outline: none;
+	letter-spacing: 1px;
+	transition: 0.3s;
+	border-radius: 3px;
+	color: grey;
+}
+.name:focus, .dob:focus, .dob1:focus, .dob2:focus, .dob3:focus{
+	-webkit-box-shadow: 0 0 2px 1px darkblue;
+	-moz-box-shadow:  0 0 2px 1px darkblue;
+	box-shadow:  0 0 2px 1px darkblue;
+	border: 1px solid darkblue;
+}
+.dob, .dob1, .dob2{
+	width: 30%;
+	padding: 14px;
+	text-align: center;
+	background-color: white;
+	transition: 0.3s;
+	outline: none;
+	border: 1px solid #fcfcfc;
+	border-radius: 3px;
+}
+.radio{ 
+display: none; 
+}
+.input-box label{
+	width: 50%;
+	padding: 13px;
+	background-color: #fcfcfc;
+display: inline-block;
+float: left;
+text-align: center;
+border: 1px solid #c0bfbf;
+
+}
+.input-box label:first-of-type{
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-right: none;
+}
+.input-box label:first-of-type{
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	
+}
+.radio:checked +label{
+	background-color: darkblue;
+	color: black;
+	transition: 0.5s;
+}
+.input-box select{
+	width: 50%;
+	padding: 12px;
+	background-color: #fcfcfc;
+display: inline-block;
+float: left;
+font-size: 16px;
+text-align: center;
+border: 1px solid #c0bfbf;
+outline: none;
+cursor: pointer;
+transition: all 0.2s ease;
+}
+.input-box select:focus{
+	background-color: darkblue;
+	color: white;
+	text-align: center;
+}
+.input-box button{
+	font-weight: bold;
+	font-family: 'Raleway', cursive;
+   font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: white;
+    color: black;
+    padding: 23px 50px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+    margin-top: 20px;
+    
+
+}
+.input-box button:hover{
+	background-color: darkblue;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+  }
+  
+  .profile_info{
+  right: 0;
+  margin-left: 1050px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  }
+  .profile_info img {
+	display: inline-block; 
+	width: 50px; 
+	height: 50px; 
+	margin: 5px;
+	float: left;
+	
+  }
+  .profile_info div {
+	display: inline-block; 
+	margin: 5px;
+  
+  }
+  .profile_info:after {
+	content: "";
+	display: block;
+	clear: both;
+  }
+  #user_type {
+	height: 40px;
+	width: 98%;
+	padding: 5px 10px;
+	background: white;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+  }

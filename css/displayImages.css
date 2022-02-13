@@ -1,0 +1,71 @@
+body {
+	background: #100000;
+	font-size: 1.5rem;
+}
+.logo{
+	position: fixed;
+	float:left;
+}
+.Description{
+    color:white;
+}
+
+.btn {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: white;
+    color: black;
+    padding: 23px 50px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+    
+}
+
+.btn:hover {
+    transform: scale(1.04, 1);
+    background-color: darkblue;
+    text-decoration: none;
+}
+.header{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.title{
+    
+    font-size: 24px;
+    border: solid transparent 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.button {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: white;
+    color: black;
+    padding: 23px 50px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+    margin-left: 100px;
+    
+}
+
+.button:hover {
+    transform: scale(1.04, 1);
+    background-color: darkblue;
+    text-decoration: none;
+}

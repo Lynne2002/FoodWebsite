@@ -1,0 +1,515 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+.profile_info{
+	right: 0;
+	margin-left: -500px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+}
+.profile_info img {
+    display: inline-block; 
+    width: 50px; 
+    height: 50px; 
+    margin: 5px;
+    float: left;
+    
+}
+.profile_info div {
+    display: inline-block; 
+    margin: 5px;
+
+}
+.profile_info:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#user_type {
+    height: 40px;
+    width: 98%;
+    padding: 5px 10px;
+    background: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+header{
+	
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+ul{
+	float: right;
+	list-style-type: none;
+	}
+ul li{
+
+	background-color: black;
+	border: 1px solid transparent;
+	text-align: center;
+	line-height: 40px;
+	float:  left;
+	width: 200px;
+	height: 40px;
+	position: relative;
+    margin-top: 0px;
+display: inline-block;
+   
+	
+}
+
+ul li a{
+
+	text-decoration: none;
+	color: white;
+	transition: 0.6s ease;
+	padding:  5px 20 px;
+	border: 1 px solid white;
+	display: block;
+    margin-top: 0px;
+
+	
+}
+ul li a:hover{
+	background-color: darkblue;
+	color: white;
+}
+ul li.one a{
+	background-color: darkblue;
+	color: white;
+}
+ul ul{
+	position: absolute;
+	display: none;
+}
+ul li:hover>ul{
+     display: block;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.title h1{
+	 text-align: center;
+  color: black;
+   padding: 1px;
+  font-family: 'Raleway', cursive;
+  font-weight: 200;
+  position: relative;
+  
+  background: -webkit-linear-gradient(left, black, #eee, black);
+  background: -moz-linear-gradient(left, black, #eee, black);
+  background: -ms-linear-gradient(left, black, #eee, black);
+  background: -o-linear-gradient(left, black, #eee, black);
+font-size: 90px;
+
+}
+.title h2{
+	margin-top:10px ;
+	border: solid transparent 20px;
+	font-size: 20px;
+	background-color: white;
+	color: black;
+    font-family: 'Raleway', cursive;
+}
+.buttons{
+    margin-top: 440px;
+}
+.btn1 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: black;
+    color: white;
+    padding: 23px 50px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+    
+}
+
+.btn1:hover {
+    transform: scale(1.04, 1);
+    background-color: darkblue;
+    text-decoration: none;
+}
+.btn2 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: black;
+    color: white;
+    padding: 23px 50px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+    
+}
+
+.btn2:hover {
+    transform: scale(1.04, 1);
+    background-color: darkblue;
+    text-decoration: none;
+}
+.benefitslist{
+	margin-top: 200px;
+}
+.benefitslist h1{
+    background-color: white;
+    text-align: center;
+}
+.benefitslist p{
+    text-align: center;
+}
+.b1{
+	font-family: 'Raleway', cursive;
+	font-size: 40px;
+
+	}
+.b2{
+	font-size: 20px;
+	border-collapse: all;
+	background-color: black;
+	color: white;
+	font-family: 'Raleway', cursive;
+}
+body, html{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.TrustIndicators1 {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  
+ 
+  color: black;
+}
+.TrustIndicators1 h1{
+    font-size: 30px;
+    font-family: 'Raleway', cursive;
+     background-color: white;
+    border: solid white 0px;
+    color: black;
+}
+.logo{
+    margin-top: -10px;
+    position: fixed;
+    float: left;
+}
+
+
+
+
+.no1{
+    width: 25%;
+    height: 25%;
+    float: left;
+    background-color: black;
+    color: white;
+    border-collapse: all;
+    text-align: center;
+}
+
+.no2 {
+    width: 25%;
+    height: 25%;
+    float: left;
+    background-color: black;
+
+    color: white;
+    border-collapse: all;
+    text-align: center;
+}
+
+.no3{
+  width: 25%;
+  height: 25%;
+  position: relative;
+  float: right;
+  background-color: black;
+  color: white;
+  border-collapse: all;
+  text-align: center;
+}
+.no4{
+  width: 25%;
+  height: 25%;
+  position: relative;
+  float: right;
+  background-color: black;
+  color: white;
+  border-collapse: all;
+  text-align: center;
+}
+
+h1 a {
+  background: black;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  letter-spacing: 30px;
+  color: black;
+}
+.FeaturesHighlights{
+    margin-top: -70px;
+}
+.FeaturesHighlights table{
+    background-color: black;
+    color:  white;
+}
+
+.FeaturesHighlights h2{
+    font-size: 30px;
+    font-family: 'Raleway', cursive;
+background-color: white;
+margin-top: 250px;
+}
+.zoom{
+    transition: transform 0.5s;
+}
+.zoom:hover{
+    transform: scale(1.05);
+}
+.TrustIndicators2{
+    margin-top: -250px;
+}
+.TrustIndicators2:hover{
+    background-color: black;
+}
+.TrustIndicators2 h3{
+    background-color: white ;
+    color: black;
+     border: solid white 10px;
+    font-family: 'Raleway', cursive;
+    font-size: 50 px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.Partnerships{
+    background-color: mintcream;
+    margin-top: 50;
+    
+    margin-top: 50px;
+}
+.Partnerships h1{
+    text-align: center;
+}
+.Partnerships p{
+    align: center;
+    color: black;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}
+@media (max-height:800px){
+    footer { position: static; }
+    header { padding-top:40px; }
+}
+
+
+
+.footer{
+    background-color: #2c292f;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 1700px;
+
+}
+
+.footer.f1,
+.footer.f2,
+.footer.f3{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.footer.f1{
+    width: 35%;
+    
+}
+
+.footer h3{
+    color:  white;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+.footer h3 span{
+    color:  #e0ac1c;
+}
+
+
+
+.footer.fl{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer.fl a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer.name{
+    color:  #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+
+.footer.f2{
+    width: 35%;
+}
+
+
+.footer.f2 i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer.f2 i.email{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer.f2 p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+}
+
+.footer.f2 p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+
+.footer.f2 p a{
+    color:  #e0ac1c;
+    text-decoration: none;;
+}
+
+
+
+
+.footer.f3{
+   width: 35%;
+    
+}
+
+.footer.fa{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer.fa span{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer.fons{
+    margin-top: 25px;
+}
+
+.footer.fons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+#user_type {
+    height: 40px;
+    width: 98%;
+    padding: 5px 10px;
+    background: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+}
+.error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+}

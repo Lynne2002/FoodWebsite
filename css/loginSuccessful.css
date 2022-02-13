@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  background-size: cover;
+  height: 100vh;
+}
+
+.logo{
+  position: fixed;
+  float:left;
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+h1{
+
+text-align: center;
+  color: black;
+   padding: 1px;
+  font-family: 'Raleway', cursive;
+  font-weight: 200;
+  position: relative;
+  
+  background: -webkit-linear-gradient(left, black, #eee, black);
+  background: -moz-linear-gradient(left, black, #eee, black);
+  background: -ms-linear-gradient(left, black, #eee, black);
+  background: -o-linear-gradient(left, black, #eee, black);
+font-size: 90px;
+}
+.title h2{
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Raleway', cursive;
+}
+.button button {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: black;
+    color: white;
+    padding: 23px 50px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+    margin-top: 400px;
+    margin-left: 550px;
+    
+}
+
+.button button:hover {
+    transform: scale(1.04, 1);
+    background-color: darkblue;
+    text-decoration: none;
+}
